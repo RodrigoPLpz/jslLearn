@@ -7,7 +7,7 @@ function onClickHeader (e){
     // preventDefault()-> Evita que se dispare una accion por defecto como una llamada a un hipervínculo o llame a un formulario.
     //Es una forma pra controlar el flujo de la acción de cualquier evento.
     e.preventDefault(); 
-    console.log("has cliclado en" + e.target.nodeName);
+    console.log("Se ha hecho clicl en " + e.target.nodeName);
     //stopPropagation() evita que se propaguen los eventos de abajo a arriba
     e.stopPropagation();
 }
@@ -17,6 +17,6 @@ addEventListener('click', onClick, false);
 // Funcion que maneaja el evento
 function onClick (e) {
     e.preventDefault();
-    console.log("Has cliciado en el documento");
+    console.log("Has dado clic en el documento");
 }
 
