@@ -1,0 +1,6 @@
+[0717/221919.932:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Redbob\Reports\Dump\settings.dat: Acceso denegado. (0x5)
+[0717/221919.941:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0717/221919.943:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Redbob\Reports\Dump\settings.dat: Acceso denegado. (0x5)
+[0717/235311.214:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Redbob\Reports\Dump\settings.dat: Acceso denegado. (0x5)
+[0717/235311.219:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0717/235311.221:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Redbob\Reports\Dump\settings.dat: Acceso denegado. (0x5)

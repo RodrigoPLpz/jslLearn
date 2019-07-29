@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self'; style-src 'self'; font-src 'self'">
+        <title>Websockets</title>
+        <script src="./node_modules/socket.io-client/dist/socket.io.js"></script>
+        <script src="main.js"></script>        
+    </head>
+    <body>
+        <h1>My app de mensajería</h1>
+        <div id="messages"></div>
+        <br/>
+        <form onsubmit="return addMessage(this)">
+            <input type="text" id="username" placeholder="Tu nombre">
+            <input type="text" id="texto" placeholder="¿Qué piensas?">
+            <input type="submit" value="Enviar!">
+        </form>
+    </body>
+</html>
