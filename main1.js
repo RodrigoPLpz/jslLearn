@@ -1,4 +1,5 @@
 //Se asocia un elemento de la web al evento "header"
+console.log('Se asocia un elemento de la web al evento "header"');
 var header = document.querySelector('header');
 header.addEventListener('click',onClickHeader,false);
 
